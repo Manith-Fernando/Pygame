@@ -5,8 +5,8 @@ import pygame
 pygame.init()
 
 # Set the width and height of the window
-width = 800
-height = 600
+width = 1280
+height = 720
 
 # Create the Pygame window
 window = pygame.display.set_mode((width, height), pygame.RESIZABLE)
@@ -36,7 +36,7 @@ while running:
         elif event.type == pygame.KEYDOWN and event.key == pygame.K_f:
             # Toggle fullscreen on 'f' key press
             if fullscreen:
-                pygame.display.set_modePython/Pygame/Game Window Template.py((width, height), pygame.RESIZABLE)
+                pygame.display.set_modePython/Pygame/Game_Window_Template.py((width, height), pygame.RESIZABLE)
             else:
                 pygame.display.set_mode((width, height), pygame.RESIZABLE | pygame.FULLSCREEN)
             fullscreen = not fullscreen
